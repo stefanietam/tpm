@@ -127,6 +127,7 @@ body{
 .images{
     height: 79vh;
     overflow: scroll;
+    padding-right:1.5vw;
 }
 
 .storyGrid{
@@ -134,7 +135,6 @@ body{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
-    grid-gap: 1%;
 }
 
 img{
