@@ -264,3 +264,7 @@ img{
    -webkit-text-stroke-color: black;
       
 }
+
+#unavailable{
+    text-decoration: line-through;
+}
