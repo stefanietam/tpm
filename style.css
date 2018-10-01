@@ -1,0 +1,254 @@
+@font-face {
+    font-family: ogg;
+    src: url(fonts/Ogg-Roman.otf);
+}
+
+@font-face {
+    font-family: neuehaas;
+    src: url(fonts/NeueHaasGroteskRegular.ttf);
+}
+
+@font-face {
+    font-family: sabon;
+    src: url(fonts/sabon-italic.ttf);
+}
+
+#tpmSticky{
+    position: fixed;
+    right:1.5%;
+    width:5%;
+}
+
+#tpmStar1{
+    position: fixed;
+    bottom:1.5%;
+    right:1%;
+    width:13%;
+}
+
+#tpmStar2{
+    position: fixed;
+    bottom:1.5%;
+    right:15%;
+    width:13%;
+}
+
+#circle{
+    font-size: 3.1vw;
+}
+
+#tpm{
+    font-family: ogg;
+}
+
+#titles{
+    font-size:3.5vw;
+    width: 83%;
+    line-height:3.25vw;
+    
+}
+
+#titlesLong{
+    font-size:3.5vw;
+    width: 92%;
+    line-height:3.25vw;
+    
+}
+
+#number{
+    font-size:1.25vw;
+}
+
+#footer{
+    font-size: 1vw; 
+    position:fixed;
+    bottom:13px;
+    display:grid;
+    grid-template-columns: 5.5vw 5.5vw 5.5vw 5.5vw;
+    grid-auto-rows: auto;
+    grid-gap: 1%;
+    background-color: white;
+    height: 2vh;
+    width:0%;
+    padding-top: 20px
+    
+}
+
+#footerBG {
+    position:fixed;
+    width:100%;
+    padding:0%;
+    bottom:0px;
+    background-color: white;
+    height:50px;
+    color:white;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: none;
+    color:green;
+}
+
+body{
+    margin-bottom:0px;
+    padding-top:1%;
+    padding-left:1%;
+    padding-right: 1%;
+    padding-bottom: 0%;
+    font-family: neuehaas;
+    font-size:.8vw;
+}
+
+.story{
+   font-size:1.25vw; 
+    width:100%;
+    height: 79vh;
+    overflow: scroll;
+}
+
+.images{
+    height: 79vh;
+    overflow: scroll;
+}
+
+.storyGrid{
+    padding-top: 1.5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 1%;
+}
+
+img{
+    width:100%;
+}
+
+#interview{
+    border-bottom: solid 1px black;
+}
+
+#line{
+    height:1px;
+    background-color: black;
+}
+
+#smallImg{
+    width:50%;
+    padding:25%;
+}
+
+#smallImg1{
+    width:50%;
+    padding:25%;
+    padding-top:10%;
+}
+
+.photoEssay{
+    padding-top: 1.5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    height: 79vh;
+    overflow: scroll;
+}
+
+#photoEssay{
+    padding:22%;
+    width:56%;
+}
+
+#photoEssayText{
+    padding-top:10%;
+    padding-left:10%;
+    width:100%;
+}
+
+.applyGrid{
+    padding-top: 1.5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 3%;
+}
+
+.applyBody{
+    font-size:1.25vw; 
+}
+
+#applyTitle{
+    font-size:1.5vw;
+}
+
+#applyIntro{
+    width:75%;
+}
+
+#aboutIntro{
+    width:40%;
+}
+
+.staffGrid{
+    padding-top: 1.5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2%;
+    width:75%;
+}
+
+#notPictured{
+    width:45%
+}
+
+#italic{
+    font-family: sabon;
+    font-size: 1.2vw;
+    letter-spacing: -.5px;
+}
+
+#largeText{
+    font-size: 1.75vw;
+    padding-left:1vw;
+    padding-right: 1vw;
+    padding-top:.25vw;
+    padding-bottom:.25vw;
+    border: .1vw solid black;
+    border-radius: 1000px;
+}
+
+#mag{
+    position: fixed;
+    right: 20%;
+    transform: rotate(20deg);
+    top:25%;
+    width:17vw;
+}
+
+.circle {
+    position: fixed;
+    right: 19.5%;
+    transform: rotate(60deg);
+    top:15%;
+      height: 32vw;
+      width: 17vw;
+      border-radius: 50%;
+    border: .09vw solid black;
+}
+
+.issue7 {
+    position: fixed;
+    right: 22.5%;
+    transform: rotate(-30deg);
+    top:18%;
+    font-size: 6.5vw;
+    color:white;
+    -webkit-text-stroke-width: .13vw;
+   -webkit-text-stroke-color: black;
+      
+}
