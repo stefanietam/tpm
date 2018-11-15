@@ -242,6 +242,13 @@ img{
     width:17vw;
 }
 
+#wb{
+    position: fixed;
+    right: 19%;
+    top:10%;
+    width:30vw;
+}
+
 .circle {
     position: fixed;
     right: 19.5%;
