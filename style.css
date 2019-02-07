@@ -1,11 +1,11 @@
 @font-face {
     font-family: ogg;
-    src: url(fonts/Ogg-Roman.otf);
+    src: url(fonts/Ogg-Italic.otf);
 }
 
 @font-face {
     font-family: neuehaas;
-    src: url(fonts/NeueHaasGroteskRegular.ttf);
+    src: url(fonts/SuisseIntl-Regular.otf);
 }
 
 @font-face {
@@ -39,6 +39,7 @@
 
 #tpm{
     font-family: ogg;
+    font-size:3.1vw;
 }
 
 #titles{
@@ -104,7 +105,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    color:green;
+    color:rgb(20, 20, 198);
 }
 
 body{
